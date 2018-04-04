@@ -1,0 +1,129 @@
+body{
+	margin: 0 15%;
+	height: 100%;
+	background: linear-gradient(to bottom, #422842 0%,#b2b2b2 100%);
+}
+
+/*Navbar*/
+#nav{
+	display: flex;
+}
+#logo{
+	display: flex;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap
+}
+li{
+	list-style: none;
+}
+.container li{
+	font-size: 32px;
+	font-family: 'Poiret One', cursive;
+	color: #fff;
+	padding: 5px;
+}
+@media screen and (max-width: 700px){
+	.container li{
+		font-size: 20px;
+	}
+	#logo li img{
+		width: 200px;
+		height: 90px;
+	}
+	body{
+		margin: 0;
+	}
+}
+
+/*Home page Main Content*/
+main{
+	background-color: #fff;
+	text-align: center;
+}
+#flyer-heading{
+	padding-top: 10px;
+	text-align: center;
+	color: #800080;
+	font-size: 48px;
+	font-weight: normal;
+	font-family: 'Voltaire', sans-serif;
+	margin-bottom: 10px;
+}
+main img{
+	display: block;
+	margin: 0 auto;
+}
+main h3{
+	font-family: 'Voltaire', sans-serif;
+	color: #800080;
+	font-size: 36px;
+	font-weight: normal;
+}
+main h3 a{
+	color: #800080;
+}
+#venueTypeHeading{
+	font-family: 'Voltaire', sans-serif;
+	font-size: 36px; 
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+#venueTypes{
+	font-size: 30px;
+	font-family: 'Voltaire', sans-serif;
+	color: #800080;
+	font-weight: normal;
+	margin: 10px auto;
+}
+main p{
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: normal;
+}
+#services{
+	display: flex;
+	justify-content: space-evenly;
+}
+#services li{
+	text-align: left;
+}
+.service-list ul{
+	margin-top: 5px;
+}
+.service-list ul li{
+	padding-bottom: 2px;
+}
+.service-list h4{
+	font-family: 'Voltaire', sans-serif;
+	color: #800080;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 7px;
+}
+#social{
+	display: flex;
+	justify-content: space-evenly;
+}
+footer{
+	padding-top: 20px;
+	text-align: center;
+	color: #555;
+}
+footer h5{
+	font-weight: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 5px;
+}
+footer p{
+	font-weight: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 5px;
+}
