@@ -3,6 +3,15 @@ body{
 	height: 100%;
 	background: linear-gradient(to bottom, #422842 0%,#b2b2b2 100%);
 }
+h1{
+	color: red;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 48px;
+	font-weight: normal;
+	font-family: 'Voltaire', sans-serif;
+}
 
 /*Navbar*/
 #nav{
@@ -133,4 +142,26 @@ footer p{
 	font-size: 15px;
 	margin: 0;
 	padding: 5px;
+}
+/*Contact Page*/
+#contact{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px 0;
+}
+#contact p{
+	font-size: 20px;
+	font-family: 'Voltaire', sans-serif;
+	color: #800080;
+	margin: 0;
+	padding: 3px;
+}
+#contact #profile-img {
+	margin-top: 20px;
+}
+#contact p:last-of-type{
+	padding-bottom: 10px;
 }
